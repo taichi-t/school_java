@@ -1,0 +1,12 @@
+package steveStudyPlan;
+
+public class MyApp {
+
+	public static void main(String[] args) {
+		String name = "taguchi";
+		
+		System.out.println("hello " + name);//this is methods showing message.
+		System.out.println("hello " + name + " again!");
+	}
+
+}

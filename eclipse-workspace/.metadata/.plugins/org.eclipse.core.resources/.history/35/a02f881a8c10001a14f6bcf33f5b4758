@@ -1,0 +1,26 @@
+package steveStudyPlan;
+
+import java.util.Scanner;
+import java.util.Random;
+
+public class MyApp3 {
+ public static void main(String[] args) {
+	// change the view depend on conditions.
+	 //check the number from a user to answer
+	 	Integer answer = new Random().nextInt(10) + 1;
+	 	// 1 to 10 number is necessity.
+	 	//checking the number from a user in terms of whether is correct or not and show the result up.
+		System.out.print("Your guess?"); 
+		Integer guess = new Scanner(System.in).nextInt();
+		
+		if(answer == guess) {
+			System.out.println("Bingo!");
+		}else if (answer > guess){
+		 System.out.println("The answer is higher!");
+		}else {
+			System.out.println("The answer is lower!");
+		}
+		
+		System.out.println("The answer was" + answer);
+ 	}
+}

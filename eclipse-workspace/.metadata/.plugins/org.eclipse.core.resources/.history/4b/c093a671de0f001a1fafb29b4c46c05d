@@ -1,0 +1,20 @@
+package steveStudyPlan;
+
+import java.util.Scanner;
+
+public class MyApp3 {
+ public static void main(String[] args) {
+	// change the view depend on conditions.
+	 //check the number from a user to answer
+	 	Integer answer = 6;
+	 	//checking the number from a user in terms of whether is correct or not and show the result up.
+		System.out.print("Your guess?"); 
+		Integer guess = new Scanner(System.in).nextInt();
+		
+		if(answer == guess) {
+			System.out.println("Bingo!");
+		}else {
+			System.out.ln("Boo...");
+		}
+ }
+}
