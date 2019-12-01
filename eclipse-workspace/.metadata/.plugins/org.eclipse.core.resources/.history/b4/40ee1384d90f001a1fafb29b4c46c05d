@@ -1,0 +1,15 @@
+package steveStudyPlan;
+
+import java.util.Scanner;
+
+public class MyApp {
+
+	public static void main(String[] args) {
+		System.out.println("Your name?");
+		String name = new Scanner(System.in).next();
+		
+		System.out.println("hello " + name);//this is methods showing message.
+		System.out.println("hello " + name + " again!");
+	}
+
+}
