@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename package &apos;ramdom&apos; to &apos;ramdamNumberGenerater&apos;&#x0A;- Original project: &apos;ivanAssignment&apos;&#x0A;- Original element: &apos;ivanAssignment/src/ramdom&apos;&#x0A;- Renamed element: &apos;ivanAssignment/src/ramdamNumberGenerater&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;ramdom&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;ramdom" name="ramdamNumberGenerater" qualified="false" references="true" stamp="1573519095727" textual="false" version="1.0"/>
-</session>
