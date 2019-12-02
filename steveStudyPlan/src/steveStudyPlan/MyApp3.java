@@ -8,13 +8,15 @@ public class MyApp3 {
 	// change the view depend on conditions.
 	 //check the number from a user to answer
 	 	Integer answer = new Random().nextInt(10) + 1;
+	 	Integer count = 0;
 	 	
 	 	while(true) {
  		System.out.print("Your guess?"); 
 		Integer guess = new Scanner(System.in).nextInt();
+		count++;
 		
 		if(answer == guess) {
-		 System.out.println("Bingo!");
+		 System.out.println("Bingo! it tool " + count + " guesses!");
 		 break; //to get out of this loop when the an answer is correct.
 		}else if (answer > guess){
 		 System.out.println("The answer is higher!");
