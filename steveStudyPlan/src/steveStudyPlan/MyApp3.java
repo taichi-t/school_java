@@ -23,6 +23,7 @@ public class MyApp3 {
 		}else {
 			System.out.println("The answer is lower!");
 		}
+
 	 }
 }
 	 	// 1 to 10 number is necessity.
